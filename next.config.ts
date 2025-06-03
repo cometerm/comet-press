@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  serverExternalPackages: ["postgres"],
   experimental: {
-    serverComponentsExternalPackages: ["postgres"],
     optimizePackageImports: ["@phosphor-icons/react"],
   },
   output: "standalone",

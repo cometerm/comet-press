@@ -168,7 +168,7 @@ export default function ClickSpeed() {
             gameState.status === "waiting" ? startGame : (e) => handleClick(e)
           }
           disabled={isButtonDisabled}
-          className="w-80 h-80 text-3xl bg-indigo-900 hover:bg-indigo-900 active:bg-indigo-950 rounded-full flex items-center justify-center cursor-pointer overflow-hidden"
+          className="w-80 h-80 text-3xl bg-indigo-900 hover:bg-indigo-900 rounded-full flex items-center justify-center cursor-pointer overflow-hidden"
           tabIndex={0}
           variant="default"
           size="lg"
@@ -181,7 +181,7 @@ export default function ClickSpeed() {
                 <motion.span
                   key={ripple.key}
                   initial={{
-                    opacity: 0.5,
+                    opacity: 0.1,
                     scale: 0,
                     left: ripple.x - 120,
                     top: ripple.y - 120,
@@ -208,7 +208,7 @@ export default function ClickSpeed() {
         </Button>
       </div>
 
-      <p className="mt-8 text-center text-md text-neutral-900 max-w-xl">
+      <p className="mt-8 text-center text-md text-indigo-950 max-w-xl">
         {getSummary()}
       </p>
     </div>
