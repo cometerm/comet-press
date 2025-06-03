@@ -8,7 +8,7 @@ const funnelSans = Funnel_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Click Speed",
+  title: "Comet Press - Click Speed Test",
   icons: {
     icon: "/icon.png",
     shortcut: "/icon.png",
