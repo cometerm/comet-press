@@ -1,3 +1,4 @@
+import { ReactScan } from "@/lib/react-scan";
 import type { Metadata } from "next";
 import { Funnel_Sans } from "next/font/google";
 import "./globals.css";
@@ -23,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <ReactScan />
       <body className={`${funnelSans.variable} antialiased bg-indigo-300`}>
         {children}
       </body>
