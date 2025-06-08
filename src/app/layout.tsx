@@ -9,12 +9,12 @@ const funnelSans = Funnel_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Comet Press - Click Speed Test",
+  title: "Comet Generator Template",
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
+    icon: "/favicon-modified.png",
+    shortcut: "/favicon-modified.png",
   },
-  description: "Test your click speed and improve your skills",
+  description: "Comet Generator Template",
 };
 
 export default function RootLayout({
